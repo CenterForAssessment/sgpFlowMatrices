@@ -7,11 +7,11 @@ Authors@R: c(person(given=c("Damian", "W."), family="Betebenner", email="dbetebe
             person(given=c("Adam", "R."), family="Van Iwaarden", email="avaniwaarden@nciea.org", role="aut"))
 Maintainer: Damian W. Betebenner <dbetebenner@nciea.org>
 Depends: R (>= 4.0)
-Suggests: SGP (>= 1.9-0.0), knitr, rmarkdown
+Suggests: SGP (>= 2.2-0.4), knitr, rmarkdown
 Imports: crayon, toOrdinal
 Description: Coefficient matrices for sgpFlow analyses.
-URL: https://github.com/CenterForAssessment/sgpFlowMatrices
-VignetteBuilder: knitr
+URL: https://github.com/CenterForAssessment/sgpFlowMatrices/
+BugReports: https://github.com/CenterForAssessment/sgpFlowMatrices/issues/
 LazyLoad: Yes
 LazyData: Yes
 LazyDataCompression: xz
