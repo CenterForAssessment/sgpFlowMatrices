@@ -1,6 +1,6 @@
 \name{addMatrices}
 \alias{addMatrices}
-\title{Function for adding sgpFlow coefficient matrices in sgpFlowMatrices to SGPstateData in SGP package.}
+\title{Function for adding sgpFlow coefficient matrices in sgpFlowMatrices to SGP object.}
 \description{
 The function addMatrices adds sgpFlow coefficient matrices contained in the sgpFlowMatrices package to the SGPstateData object embedded in the SGP package so baseline SGP analyses can be conducted.
 }
@@ -23,7 +23,7 @@ addMatrices(
   }
 }
 
-\value{Returns SGPstateData with the matrices associated with argument \code{state} embedded in the position associated with the argument \code{add.matrices.to.state} (defaults to \code{state}).
+\value{Returns an SGP object with matrices embedded in appropriate slot embedded in the position associated with the argument \code{add.matrices.to.state} (defaults to \code{state}).
 }
 
 \author{Damian W. Betebenner \email{dbetebenner@nciea.org}}

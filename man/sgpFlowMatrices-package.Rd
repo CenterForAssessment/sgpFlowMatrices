@@ -11,7 +11,7 @@
 Package: \tab sgpFlowMatrices\cr
 Type: \tab Package\cr
 Version: \tab 0.0-0.1\cr
-Date: \tab 2024-10-8\cr
+Date: \tab 2024-10-23\cr
 License: \tab GPL-3\cr
 LazyLoad: \tab Yes\cr
 LazyData: \tab Yes\cr
