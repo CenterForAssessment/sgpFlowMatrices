@@ -8,7 +8,7 @@ Authors@R: c(person(given=c("Damian", "W."), family="Betebenner", email="dbetebe
 Maintainer: Damian W. Betebenner <dbetebenner@nciea.org>
 Depends: R (>= 4.0)
 Suggests: SGP (>= 2.2-0.4), knitr, rmarkdown
-Imports: crayon, toOrdinal
+Imports: crayon, pkgsearch, toOrdinal
 Description: Coefficient matrices for sgpFlow analyses.
 URL: https://github.com/CenterForAssessment/sgpFlowMatrices/
 BugReports: https://github.com/CenterForAssessment/sgpFlowMatrices/issues/
