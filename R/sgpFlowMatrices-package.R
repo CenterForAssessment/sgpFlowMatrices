@@ -1,0 +1,72 @@
+#' @title sgpFlowMatrices: Coefficient Matrices for sgpFlow analyses
+#'
+#' @description
+#' The \pkg{sgpFlowMatrices} package provides coefficient matrices for sgpFlow analyses.
+#' These matrices are essential components for conducting student growth percentile
+#' (SGP) analyses using the sgpFlow framework.
+#'
+#' @details
+#' The package contains pre-computed coefficient matrices that are used in conjunction
+#' with the \pkg{SGP} package for student growth analyses. These matrices are optimized
+#' for use with sgpFlow and provide the necessary coefficients for various statistical
+#' calculations in the growth analysis process.
+#'
+#' \tabular{ll}{
+#'   Package: \tab sgpFlow \cr
+#'   Type: \tab Package \cr
+#'   Version: \tab 0.0-0.989 \cr
+#'   Date: \tab 2025-5-5 \cr
+#'   License: \tab MIT \cr
+#'   LazyLoad: \tab yes \cr
+#' }
+#'
+#' @section Package Options:
+#' The package provides several options that can be set using \code{options()}:
+#' \describe{
+#'   \item{\code{sgpFlowMatrices.verbose}}{Logical. Should the package print verbose
+#'   messages during operations? Default is \code{FALSE}.}
+#' }
+#'
+#' @section Data:
+#' The package includes several datasets containing coefficient matrices:
+#' \describe{
+#'   \item{\code{\link{sgpFlowMatrices}}}{Coefficient matrices by state/organization for sgpFlow analyses}
+#' }
+#'
+#' @section Dependencies:
+#' The package depends on:
+#' \itemize{
+#'   \item R (>= 4.0)
+#'   \item \pkg{crayon} for colored terminal output
+#'   \item \pkg{curl} for HTTP requests
+#'   \item \pkg{pkgsearch} for package metadata
+#'   \item \pkg{toOrdinal} for ordinal number formatting
+#' }
+#'
+#' @section Suggested Packages:
+#' For full functionality, it is recommended to install:
+#' \itemize{
+#'   \item \pkg{SGP} (>= 2.2-0.4) for student growth percentile analyses
+#'   \item \pkg{knitr} and \pkg{rmarkdown} for vignettes and documentation
+#' }
+#'
+#' @author
+#' \strong{Maintainer:} Damian W. Betebenner \email{dbetebenner@nciea.org}
+#'
+#' Authors:
+#' \itemize{
+#'   \item Damian W. Betebenner \email{dbetebenner@nciea.org}
+#'   \item Adam R. Van Iwaarden \email{avaniwaarden@nciea.org}
+#' }
+#'
+#' @seealso
+#' Useful links:
+#' \itemize{
+#'   \item \url{https://github.com/CenterForAssessment/sgpFlowMatrices/}
+#'   \item Report bugs at \url{https://github.com/CenterForAssessment/sgpFlowMatrices/issues/}
+#' }
+#'
+#' @docType package
+#' @name sgpFlowMatrices-package
+#' @keywords package
+"_PACKAGE"
