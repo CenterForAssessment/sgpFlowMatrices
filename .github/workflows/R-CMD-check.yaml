@@ -57,13 +57,14 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          extra-packages: any::rcmdcheck, any::remotes
+          extra-packages: any::rcmdcheck, any::remotes, any::sessioninfo
           needs: check
           repos: |
             https://cloud.r-project.org
-            https://github.com/CenterForAssessment/SGP.git
-            https://github.com/CenterForAssessment/sgpFlow.git
+            https://github.com/CenterForAssessment/SGP/raw/master
+            https://github.com/CenterForAssessment/sgpFlow/raw/master
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          install-method: remotes
 
       - uses: r-lib/actions/check-r-package@v2
         with:
