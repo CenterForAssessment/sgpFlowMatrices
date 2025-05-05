@@ -4,7 +4,7 @@ sgpFlowMatrices
 [![R-CMD-check](https://github.com/CenterForAssessment/sgpFlowMatrices/workflows/R-CMD-check/badge.svg)](https://github.com/CenterForAssessment/sgpFlowMatrices/actions)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/centerforassessment/sgpFlowMatrices?branch=master&svg=true)](https://ci.appveyor.com/project/centerforassessment/sgpFlowMatrices)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/sgpFlowMatrices)](http://cran.r-project.org/package=sgpFlowMatrices)
-[![Development Version](https://img.shields.io/badge/devel-0.0--0.1-brightgreen.svg)](https://github.com/CenterForAssessment/sgpFlowMatrices)
+[![Development Version](https://img.shields.io/badge/devel-0.0--0.4-brightgreen.svg)](https://github.com/CenterForAssessment/sgpFlowMatrices)
 [![License](http://img.shields.io/badge/license-GPL%203-brightgreen.svg?style=flat)](https://github.com/CenterForAssessment/sgpFlowMatrices/blob/master/LICENSE.md)
 
 # Overview

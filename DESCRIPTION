@@ -1,14 +1,14 @@
 Package: sgpFlowMatrices 
 Type: Package
 Title: Coefficient Matrices for sgpFlow analyses 
-Version: 0.0-0.2
-Date: 2024-12-3
+Version: 0.0-0.4
+Date: 2025-5-5
 Authors@R: c(person(given=c("Damian", "W."), family="Betebenner", email="dbetebenner@nciea.org", role=c("aut", "cre")),
             person(given=c("Adam", "R."), family="Van Iwaarden", email="avaniwaarden@nciea.org", role="aut"))
 Maintainer: Damian W. Betebenner <dbetebenner@nciea.org>
 Depends: R (>= 4.0)
 Suggests: SGP (>= 2.2-0.4), knitr, rmarkdown
-Imports: crayon, pkgsearch, toOrdinal
+Imports: crayon, curl, pkgsearch, toOrdinal
 Description: Coefficient matrices for sgpFlow analyses.
 URL: https://github.com/CenterForAssessment/sgpFlowMatrices/
 BugReports: https://github.com/CenterForAssessment/sgpFlowMatrices/issues/
@@ -16,5 +16,6 @@ LazyLoad: Yes
 LazyData: Yes
 LazyDataCompression: xz
 ByteCompile: TRUE
-License:  MIT + file LICENSE
+License: MIT + file LICENSE
 Encoding: UTF-8
+RoxygenNote: 7.3.2
