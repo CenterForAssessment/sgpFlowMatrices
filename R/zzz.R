@@ -49,7 +49,7 @@ function(libname, pkgname) {
 
         # Define a friendly startup message
 		message_text <- paste0(
-		    crayon::magenta(crayon::bold("\uD83C\uDF89 sgpFlowMatrices v", installed.version, sep="")), " - ", toOrdinal::toOrdinalDate("2025-5-5"), "\n",
+		    crayon::magenta(crayon::bold("\uD83C\uDF89 sgpFlowMatrices v", installed.version, sep="")), " - ", toOrdinal::toOrdinalDate("2025-5-12"), "\n",
 			strrep("\u2501", 40), "\n",
     	    crayon::bold("\U1F4E6 CRAN: "), cran.version, "\n",
     	    crayon::bold("\U1F527 Dev: "), dev.version, "\n",
